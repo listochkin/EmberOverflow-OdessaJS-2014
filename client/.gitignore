@@ -5,8 +5,10 @@
 /tmp
 
 # dependencies
-/node_modules
-/vendor/*
+# /node_modules
+# /vendor/*
+# ignore compiled binary Node.js addons 
+/node_modules/**/*.node
 
 # misc
 /.sass-cache
