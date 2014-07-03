@@ -1,0 +1,7 @@
+<ul>
+  {{#each user in this}}
+    <li>{{#link-to 'user' user}}{{user.name}}{{/link-to}}</li>
+  {{else}}
+    <li>No Users found</li>
+  {{/each}}
+</ul>

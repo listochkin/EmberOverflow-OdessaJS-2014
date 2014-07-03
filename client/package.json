@@ -6,6 +6,7 @@
     "doc": "doc",
     "test": "test"
   },
+  "APIMethod": "stub",
   "scripts": {
     "start": "ember server",
     "build": "ember build",
