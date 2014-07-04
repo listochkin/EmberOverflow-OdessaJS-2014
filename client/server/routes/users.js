@@ -1,5 +1,5 @@
 var users = [
-  { id: 11, name: 'Artyom Trityak', twitter: 'artyomtrityak', password: '123' },
+  { id: 11, name: 'Artyom Trityak', twitter: 'artyomtrityak', password: '123', questions: [21] },
   { id: 12, name: 'Eldar Djafarov', twitter: 'edjafarov', password: '145' },
   { id: 13, name: 'Ingvar Stepanyan', twitter: 'RReverser', password: '178' },
   { id: 14, name: 'Maxim Klymyshyn', twitter: 'maxmaxmaxmax', password: '167' }

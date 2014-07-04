@@ -1,0 +1,7 @@
+<ul>
+  {{#each question in this}}
+    <li>{{#link-to 'question' question}}{{question.title}}{{/link-to}}</li>
+  {{else}}
+    <li>No Questions found</li>
+  {{/each}}
+</ul>

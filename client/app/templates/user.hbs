@@ -1,2 +1,10 @@
 <img {{bind-attr src=avatar }}>
 <h3>{{name}}</h3>
+
+<ul>
+  {{#each question in questions}}
+    <li>{{#link-to 'question' question}}{{question.title}}{{/link-to}}</li>
+  {{else}}
+    <li>No questions</li>
+  {{/each}}
+</ul>
