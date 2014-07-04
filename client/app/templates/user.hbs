@@ -8,3 +8,11 @@
     <li>No questions</li>
   {{/each}}
 </ul>
+
+<ul>
+  {{#each answer in answers}}
+    <li>{{#link-to 'answer' answer}}{{answer.body}}{{/link-to}}</li>
+  {{else}}
+    <li>No answers</li>
+  {{/each}}
+</ul>
