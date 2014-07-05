@@ -1,3 +1,9 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<h2 id='title'>EmberOverflow</h2>
+
+{{#if session.isLoggedIn}}
+  <p>{{#link-to 'user' session.user}}{{session.user.name}}{{/link-to}}<p>
+{{else}}
+  <p>{{#link-to 'login'}}Login{{/link-to}}</p>
+{{/if}}
 
 {{outlet}}

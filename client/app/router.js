@@ -13,6 +13,7 @@ Router.map(function() {
   this.resource('question', { path: 'questions/:question_id' });
   this.resource('answers');
   this.resource('answer', { path: 'answers/:answer_id' });
+  this.route('login');
 });
 
 export default Router;
